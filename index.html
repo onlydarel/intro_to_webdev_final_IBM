@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Poppins:ital,wght@0,100;0,500;0,900;1,100;1,400&family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Darel's Portfolio Page</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <!-- Identity -->
+      <div class="identity">
+        <h1 id="name">Darel</h1>
+        <div class="contact-info">
+          <i class="fa fa-envelope"></i><span id="email">darel@email.com</span>
+          <br />
+          <i class="fa fa-phone"></i><span id="phone">+12345678910</span>
+        </div>
+      </div>
+
+      <div class="pages">
+        <ul>
+          <li>
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Projects">Projects</a>
+          </li>
+          <li>
+            <a href="#Recommendations">Recommendations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <section id="aboutMe">
+        <div class="about-content">
+          <img src="./assets/pfp.jpeg" alt="Toji" />
+          <div class="text-content">
+            <h1>Hi, I'm Darel</h1>
+            <p>
+              Hello there! I'm Darel, a dedicated and enthusiastic software
+              developer with two years of professional experience. Since my
+              journey into the world of coding began, I have been fascinated by
+              the endless possibilities and the power of technology in shaping
+              the future.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <h1>Skills</h1>
+      <section id="Skills">
+        <div class="html">
+          <img src="./assets/html.png" alt="html_logo" />
+          <p class="box-title">HTML</p>
+          <p class="experience">0.5 Years</p>
+        </div>
+
+        <div class="css">
+          <!-- Skills related to CSS -->
+          <img src="./assets/css.png" alt="css_logo" />
+          <p class="box-title">CSS</p>
+          <p class="experience">0.5 Years</p>
+        </div>
+
+        <div class="js">
+          <!-- Skills related to JavaScript -->
+          <img src="./assets/js.png" alt="js_logo" />
+          <p class="box-title">JavaScript</p>
+          <p class="experience">0.25 Years</p>
+        </div>
+
+        <div class="python">
+          <!-- Skills related to Python -->
+          <img src="./assets/python.png" alt="python_logo" />
+          <p class="box-title">Python</p>
+          <p class="experience">1.5 Years</p>
+        </div>
+
+        <div class="cpp">
+          <!-- Skills related to Python -->
+          <img src="./assets/cpp.png" alt="cpp_logo" />
+          <p class="box-title">C++</p>
+          <p class="experience">1.5 Years</p>
+        </div>
+        <div class="java">
+          <!-- Skills related to Python -->
+          <img src="./assets/java.png" alt="cpp_logo" />
+          <p class="box-title">Java</p>
+          <p class="experience">1.5 Years</p>
+        </div>
+      </section>
+
+      <h1>Projects</h1>
+      <section id="Projects">
+        <div class="project1">
+          <h3>Form Filling Bot Project</h3>
+          <ul>
+            <li>
+              <p>
+                Auto Form Filling Bot, the ultimate time-saving tool that
+                streamlines the tedious process of filling out online forms.
+                Designed to enhance productivity and efficiency, our bot is the
+                perfect digital assistant for handling repetitive and monotonous
+                form-filling tasks.
+              </p>
+            </li>
+          </ul>
+
+          <hr />
+        </div>
+        <div class="project2">
+          <h3>Snake Game Project</h3>
+          <ul>
+            <li>
+              <p>Snake Game.</p>
+            </li>
+          </ul>
+
+          <hr />
+        </div>
+        <div class="project3">
+          <h3>Password Manager Project</h3>
+          <ul>
+            <li>
+              <p>
+                A Personal Password Manager Project is a private software
+                application designed to help individuals securely organize,
+                store, and manage their personal login credentials and sensitive
+                information. In the digital age, maintaining strong and unique
+                passwords for various online accounts is crucial to protect
+                personal data from unauthorized access and potential security
+                breaches.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <h1>Recommendations</h1>
+      <section id="Recommendations">
+        <div class="rec1">
+          <p>
+            "Darel is an excellent team player and a skilled software
+            developer. Their collaboration and problem-solving abilities greatly
+            contributed to our project's success. I highly recommend them."
+          </p>
+        </div>
+        <div class="rec2">
+          <p>
+            "I had the pleasure of working with Darel and was impressed by
+            their technical expertise and teamwork. They delivered high-quality
+            code and actively supported the team. Highly recommended."
+          </p>
+        </div>
+        <div class="rec3">
+          <p>
+            "Darel is a talented software developer with strong
+            communication skills. Their contributions were invaluable, and they
+            always went the extra mile to help the team. I strongly endorse
+            them."
+          </p>
+        </div>
+      </section>
+
+      <section class="rec-form">
+        <div class="form">
+          <h2>Leave a recommendation</h2>
+          <form>
+            <input type="text" id="name-input" placeholder="Name (Optional)">
+            <textarea id="recommendation-input" placeholder="Message"></textarea>
+          </form>
+          <a>
+            <button id="submit-btn">Submit</button>
+          </a>
+        </div>
+      </section>
+
+      <div class="up-btn">
+        <a href="#">
+          <img src="./assets/arrow-up.png">
+        </a>
+      </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+
+  </body>
+</html>

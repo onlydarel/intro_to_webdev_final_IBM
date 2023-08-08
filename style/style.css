@@ -1,0 +1,250 @@
+body {
+  background-color: #FEFFDE;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  font-family:'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and newer versions of Edge */
+}
+
+h1 {
+  color: #52734D;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #52734D;
+  color: #FEFFDE;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.identity h1{
+  padding-top: 5%;
+  margin: 0;
+  color: #FEFFDE;
+}
+
+.identity span{
+  font-style: italic;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.pages {
+  margin-top: 5px;
+}
+
+.pages ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pages li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.pages li:last-child {
+  margin-right: 40px;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #FEFFDE;
+  font-size: 18px;
+}
+
+.pages a:hover {
+  color: #ebb6b6;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.page-content {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#aboutMe {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-content img {
+  max-width: 300px;
+  margin-right: 50px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #52734D;
+  margin: 0;
+}
+
+.text-content p {
+  font-size: 24px;
+  color: #858585;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+#Skills {
+  display: flex;
+}
+
+#Skills img{
+  width: 40px;
+}
+
+#Skills .box-title {
+  font-weight: bold;
+}
+
+.html, .css, .js, .python, .cpp, .java {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEFFDE;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  margin: 15px;
+}
+
+#Projects {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#Projects hr{
+  width: 75%;
+  margin: 0 auto;
+}
+
+#Recommendations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Recommendations p {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.rec1, .rec2, .rec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEFFDE;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+  width: 250px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.rec-form {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.form h2{
+  font-size: 28px;
+}
+
+.form input, .form textarea {
+  display: block;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  margin-left: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.form input:focus::placeholder {
+  color: transparent;
+}
+
+#name-input, #recommendation-input {
+  font-family: 'Poppins';
+  opacity: 80%;
+  width: 600px;
+}
+
+#recommendation-input {
+  height: 300px;
+}
+
+.form a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form button {
+  font-family: 'Poppins';
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  border: none;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+}
+
+.up-btn {
+  position: relative;
+  left: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #52734D;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.up-btn a {
+  text-decoration: none;
+}
+
+.up-btn img {
+  padding-top: 5px;
+  width:30px;
+}
